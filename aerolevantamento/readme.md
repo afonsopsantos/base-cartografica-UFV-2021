@@ -20,7 +20,9 @@ Durante o desenvolvimento das atividades foi seguido todos os protocolos e legis
 - link: https://drive.google.com/file/d/1tUlgPjZdmp29X6xL3sziZJBxYKDPywNQ/view?usp=share_link 
 
 Como citar este produto em seu trabalho:
+
 (EJEAG, 2021)
+
 EJEAG - Empresa Júnior de Engenharia de Agrimensura e Cartográfica. Base Cartográfica Digital do campus Viçosa - UFV: Ortomosaico. CENTEV, Universidade Federal de Viçosa, Viçosa, Minas Gerais, Brasil, 2021. 
 
 
@@ -36,5 +38,7 @@ EJEAG - Empresa Júnior de Engenharia de Agrimensura e Cartográfica. Base Carto
 
 
 Como citar este produto em seu trabalho:
+
 (EJEAG, 2021)
+
 EJEAG - Empresa Júnior de Engenharia de Agrimensura e Cartográfica. Base Cartográfica Digital do campus Viçosa - UFV: Modelo Digital de Superfície. CENTEV, Universidade Federal de Viçosa, Viçosa, Minas Gerais, Brasil, 2021.
