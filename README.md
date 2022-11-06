@@ -1,12 +1,12 @@
 # Geração da base cartográfica de referência para o campus Viçosa - UFV
 
 
-[Introdução](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#introdu%C3%A7%C3%A3o)
-[Justificativa](https://github.com/afonsopsantos/base-cartografica-UFV-2021#justificativa)
-[Objetivos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#objetivos)
-[Metodologia](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#metodologia)
-[Resultados Obtidos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#resultados-obtidos)
-[Produtos Desenvolvidos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#produtos-desenvolvidos)
+- [Introdução](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#introdu%C3%A7%C3%A3o)
+- [Justificativa](https://github.com/afonsopsantos/base-cartografica-UFV-2021#justificativa)
+- [Objetivos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#objetivos)
+- [Metodologia](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#metodologia)
+- [Resultados Obtidos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#resultados-obtidos)
+- [Produtos Desenvolvidos](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#produtos-desenvolvidos)
 
 
 
@@ -69,7 +69,7 @@ A execução do projeto foi realizada em etapas, sendo dividida em:
 
 
 
-### (i). AEROLEVANTAMENTO: GERAÇÃO DE ORTOFOTOS E MDS 
+#### (i). AEROLEVANTAMENTO: GERAÇÃO DE ORTOFOTOS E MDS 
 
 Para realizar a etapa do aerolevantamento, foi contratada uma empresa especializada com todas as autorizações necessárias para este fim. Os requisitos para o aerolevantamento foram: 
 - Aerolevantamento com Aeronave Remotamente Pilotada (RPA/VANT/DRONE) do campus Viçosa da Universidade Federal de Viçosa, com aproximadamente 1.800ha de cobertura; 
@@ -85,18 +85,18 @@ Para a geração dos produtos cartográficos do aerolevantamento, foi realizado 
 
 
 
-### (ii). CAPACITAÇÃO DOS MEMBROS DA EJEAG 
+#### (ii). CAPACITAÇÃO DOS MEMBROS DA EJEAG 
 
 Para a integral realização do projeto pelos membros da EJEAG, foi necessária a capacitação da equipe em relação aos temas associados à execução das etapas do projeto. A capacitação foi direcionada para normatização da cartografia nacional, Infraestrutura Nacional de Dados Espaciais (INDE), controle de qualidade cartográfica e aquisição e estruturação de dados cartográficos. O treinamento da equipe ficou sob responsabilidade do professor orientador da EJEAG, Afonso de Paula dos Santos, sendo realizado de forma remota entre novembro de 2020 a fevereiro de 2021. O conteúdo foi abordado de forma teórica e prática. 
 
 
 
-### (iii) CONTROLE DE QUALIDADE DOS PRODUTOS DO AEROLEVANTAMENTO 
+#### (iii) CONTROLE DE QUALIDADE DOS PRODUTOS DO AEROLEVANTAMENTO 
 
 A partir da ortofoto gerada na etapa (i), foi realizado o controle de qualidade cartográfica deste produto. Inicialmente, a EJEAG planejava a coleta dos pontos de checagem em campo para poder validar o produto. Entretanto, devido às restrições da pandemia da Covid-19, não foi possível realizar este processo. Assim, foram utilizados alguns pontos de checagem disponibilizados pelo prof. Afonso P. Santos e pela empresa contratada para realizar o aerolevantamento. De posse dos pontos de checagem, foi avaliada a qualidade posicional a partir do cálculo das discrepâncias posicionais. Para tanto, foram aplicados testes estatísticos e a avaliação da acurácia tanto pelo Decreto 89.817, que contém as tolerâncias para análise da qualidade posicional de produtos cartográficos, quanto pela ET-CQDG, especificação que instrui o procedimento de controle de qualidade cartográfica no âmbito da INDE. Estes procedimentos foram realizados utilizando o software livre GeoPEC 3.5.2 e os procedimentos metodológicos expostos em Santos et al. (2016) [3] 
 
 
-### (iv). RESTITUIÇÃO DAS FEIÇÕES CARTOGRÁFICAS COM BASE NA ORTOFOTO E NO MDS
+#### (iv). RESTITUIÇÃO DAS FEIÇÕES CARTOGRÁFICAS COM BASE NA ORTOFOTO E NO MDS
 
 Esta etapa consistiu na elaboração da base cartográfica. Para isto, foi realizada a aquisição dos dados cartográficos a partir de uma restituição (vetorização) dos elementos identificados nas ortofotos e MDS e, através desta, foram gerados os planos de informações de acordo com as recomendações das normas da INDE. Foram utilizadas como base as seguintes especificações: 
 - EDGV – Estruturação de Dados Geoespaciais Vetoriais – Versão 3.0 
@@ -105,11 +105,11 @@ Esta etapa consistiu na elaboração da base cartográfica. Para isto, foi reali
 
 Todo o procedimento de aquisição e estruturação dos dados cartográficos foram executados no software livre QGIS 3.16. Para otimização dos trabalhos, os membros da EJEAG foram separados em cinco equipes, onde cada grupo ficou responsável pela aquisição e estruturação dos dados referentes às categorias de informação a ela atribuídas. Devido às restrições da pandemia, não foi possível aos membros da EJEAG percorrer o campus presencialmente para identificação de algumas feições, como fontes d’água, dutos, entre outros, que não são bem identificáveis na ortofoto. O preenchimento de atributos de alguns dados cartográficos foi também prejudicado pelas restrições da pandemia. 
 
-### (v). VALIDAÇÃO PRÉVIA DA BASE CARTOGRÁFICA 
+#### (v). VALIDAÇÃO PRÉVIA DA BASE CARTOGRÁFICA 
 
 Após a geração da base cartográfica, foi realizada uma avaliação prévia da mesma, analisando elementos de completude, consistência lógica e temática. Este processo foi realizado separando os membros da EJEAG em equipes, conforme apresentado no item (iv). Cada grupo avaliou a qualidade do produto da outra equipe. Ao final, produziu-se um relatório de inconsistência, para que cada equipe efetivasse as correções necessárias. 
 
-### (vi) GERAÇÃO DO METADADOS DA BASE CARTOGRÁFICA VETORIAL 
+#### (vi) GERAÇÃO DO METADADOS DA BASE CARTOGRÁFICA VETORIAL 
 
 Por fim, foi realizado o preenchimento dos metadados de acordo com a INDE, utilizando o Perfil de Metadados Geoespaciais Brasileiros (Perfil MGB) 1ª edição. Metadados são informações sobre o produto, e serve como elemento central dentro de um Infraestrutura de Dados Espaciais.
 
