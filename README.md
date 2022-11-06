@@ -1,7 +1,7 @@
 # Geração da base cartográfica de referência para o campus Viçosa - UFV
 
-[Introdução](## Introdução)
-[Justificativa](## Justificativa)
+[Introdução](https://github.com/afonsopsantos/base-cartografica-UFV-2021/blob/main/README.md#introdu%C3%A7%C3%A3o)
+[Justificativa][(## Justificativa)](https://github.com/afonsopsantos/base-cartografica-UFV-2021#justificativa)
 
 
 ## Introdução
