@@ -10,6 +10,11 @@ No Brasil, a cartografia de referência é normatizada por leis e decretos. Em 2
 
 Vale ressaltar que o Decreto n° 6.666 de 2008 em seu art 3° diz: “o compartilhamento e disseminação dos dados geoespaciais e seus metadados é obrigatório para todos os órgãos e entidades do Poder Executivo federal”. Logo, dispor de uma base cartográfica de referência é essencial para o planejamento e gestão da administração do campus da Universidade Federal de Viçosa, além de cumprir as obrigatoriedades do Decreto n° 6.666.
 
+### Referências
+[1] MENEZES, P.M.L.; FERNANDES, M. C. Roteiro de Cartografia. São Paulo: Oficina de Textos, 288, 2013. 
+[2] BRASIL. Decreto nº 6.666, de 27 de novembro de 2008. 
+[3] SANTOS, A. P.; RODRIGUES, D. D.; SANTOS, N. T.; GRIPP JÚNIOR, J. Avaliação da acurácia posicional em dados espaciais utilizando técnicas de estatística espacial: proposta de método e exemplo utilizando a norma brasileira. Boletim de Ciências Geodésicas, v. 22, n. 4, 2016. pp. 630-650.
+
 
 ## Justificativa
 O projeto denominado “Geração de uma base cartográfica de referência para o campus Viçosa da UFV” destina-se a proporcionar diversos benefícios para os segmentos a seguir relacionados:
@@ -49,7 +54,7 @@ A execução do projeto foi realizada em etapas, sendo dividida em:
 
 
 
-###(i). AEROLEVANTAMENTO: GERAÇÃO DE ORTOFOTOS E MDS 
+### (i). AEROLEVANTAMENTO: GERAÇÃO DE ORTOFOTOS E MDS 
 
 Para realizar a etapa do aerolevantamento, foi contratada uma empresa especializada com todas as autorizações necessárias para este fim. Os requisitos para o aerolevantamento foram: 
 - Aerolevantamento com Aeronave Remotamente Pilotada (RPA/VANT/DRONE) do campus Viçosa da Universidade Federal de Viçosa, com aproximadamente 1.800ha de cobertura; 
@@ -81,4 +86,27 @@ A partir da ortofoto gerada na etapa (i), foi realizado o controle de qualidade 
 Esta etapa consistiu na elaboração da base cartográfica. Para isto, foi realizada a aquisição dos dados cartográficos a partir de uma restituição (vetorização) dos elementos identificados nas ortofotos e MDS e, através desta, foram gerados os planos de informações de acordo com as recomendações das normas da INDE. Foram utilizadas como base as seguintes especificações: 
 - EDGV – Estruturação de Dados Geoespaciais Vetoriais – Versão 3.0 
 - ADGV – Aquisição de Dados Geoespaciais Vetoriais – Versão 3.0 
-- PCDG – Produtos do Conjunto de Dados Geoespaciais – 2ª edição Todo o procedimento de aquisição e estruturação dos dados cartográficos foram executados no software livre QGIS 3.16. Para otimização dos trabalhos, os membros da EJEAG foram separados em cinco equipes, onde cada grupo ficou responsável pela aquisição e estruturação dos dados referentes às categorias de informação a ela atribuídas. Devido às restrições da pandemia, não foi possível aos membros da EJEAG percorrer o campus presencialmente para identificação de algumas feições, como fontes d’água, dutos, entre outros, que não são bem identificáveis na ortofoto. O preenchimento de
+- PCDG – Produtos do Conjunto de Dados Geoespaciais – 2ª edição. 
+
+Todo o procedimento de aquisição e estruturação dos dados cartográficos foram executados no software livre QGIS 3.16. Para otimização dos trabalhos, os membros da EJEAG foram separados em cinco equipes, onde cada grupo ficou responsável pela aquisição e estruturação dos dados referentes às categorias de informação a ela atribuídas. Devido às restrições da pandemia, não foi possível aos membros da EJEAG percorrer o campus presencialmente para identificação de algumas feições, como fontes d’água, dutos, entre outros, que não são bem identificáveis na ortofoto. O preenchimento de atributos de alguns dados cartográficos foi também prejudicado pelas restrições da pandemia. 
+
+### (v). VALIDAÇÃO PRÉVIA DA BASE CARTOGRÁFICA 
+
+Após a geração da base cartográfica, foi realizada uma avaliação prévia da mesma, analisando elementos de completude, consistência lógica e temática. Este processo foi realizado separando os membros da EJEAG em equipes, conforme apresentado no item (iv). Cada grupo avaliou a qualidade do produto da outra equipe. Ao final, produziu-se um relatório de inconsistência, para que cada equipe efetivasse as correções necessárias. 
+
+### (vi) GERAÇÃO DO METADADOS DA BASE CARTOGRÁFICA VETORIAL 
+
+Por fim, foi realizado o preenchimento dos metadados de acordo com a INDE, utilizando o Perfil de Metadados Geoespaciais Brasileiros (Perfil MGB) 1ª edição. Metadados são informações sobre o produto, e serve como elemento central dentro de um Infraestrutura de Dados Espaciais.
+
+## Resultados Obtidos 
+
+Base cartográfica vetorial do campus Viçosa. A UFV pode utilizar a base cartográfica gerada para denominar como oficial, servindo para aprimorar o planejamento e gestão da universidade, desenvolver sua própria Infraestrutura de Dados Espaciais (atendendo o art. 3° do Decreto n. 6.666), além de benefícios para toda a comunidade acadêmica em termos de ensino, pesquisa e extensão. 
+
+A EJEAG adquiriu “know-how” na execução deste tipo de atividade, possibilitando o aprimoramento da carta de serviços da empresa, consequentemente, a captação de novos clientes e projetos. Melhorias da infraestrutura da EJEAG, devido aos bens de capital adquiridos para o desenvolvimento deste projeto, e que auxiliarão na execução dos trabalhos da empresa a longo prazo.
+
+## Produtos Desenvolvidos
+
+- Ortofoto de todo o limite territorial do campus Viçosa - UFV, compatível na escala 1:2.000 e resolução espacial de 10 cm; 
+- Modelo Digital de Superfície de todo o limite territorial do campus Viçosa - UFV; 
+- Base Cartográfica vetorial de referência do Campus Viçosa - UFV contendo classe de informações referentes à: Hidrografia; Limites; Energia; Economia; Edificações; Pontos de Referência; Relevo; Saneamento Básico; Sistema de Transportes; Vegetação; Área Verde; Cultura e Lazer; Estrutura de Mobilidade Urbana. 
+- Metadados das informações cartográficas produzidas e disponibilizadas;
