@@ -13,9 +13,9 @@
 A criação da base cartográfica de referência para o campus Viçosa - UFV, no ano de 2021, foi resultado de um projeto obtido a partir do Edital CENTEV/UFV 01/2020
 PROGRAMA DE DESENVOLVIMENTO DAS EMPRESAS JUNIORES DA UNIVERSIDADE FEDERAL DE VIÇOSA, tendo como objetivo geral consolidar o crescimento e o desenvolvimento das empresas juniores da UFV, promovendo a cultura do empreendedorismo e da inovação junto à comunidade acadêmica.
 
-(EJEAG, 2021)
-
-EJEAG - Empresa Júnior de Engenharia de Agrimensura e Cartográfica. Base Cartográfica Digital do campus Viçosa - UFV. CENTEV, Universidade Federal de Viçosa, Viçosa, Minas Gerais, Brasil, 2021.
+Faça a citação:
+. (EJEAG, 2021)
+. EJEAG - Empresa Júnior de Engenharia de Agrimensura e Cartográfica. Base Cartográfica Digital do campus Viçosa - UFV. CENTEV, Universidade Federal de Viçosa, Viçosa, Minas Gerais, Brasil, 2021.
 
 ## Introdução
 A cartografia é uma ciência milenar que representa qualquer informação que possa ser espacializada na superfície terrestre. Logo, fica caracterizado que a "cartografia tem por objetivo o estudo de todas as formas de elaboração, produção e utilização da representação da informação geográfica" [1]. Assim, os produtos resultantes da Cartografia são aplicáveis a quaisquer campos de atuação que necessitem de planejamento territorial ou de informações espacializadas. 
